@@ -2,7 +2,7 @@ package com.userprofile.davidls4.userprofile;
 
 public class User_Profile {
     private String UserName, UserUsername, Follower, Following,
-            AboutMe, UserImage;
+            AboutMe;
 
     public String getUserName() {
         return UserName;
@@ -22,9 +22,5 @@ public class User_Profile {
 
     public String getAboutMe() {
         return AboutMe;
-    }
-
-    public String getUserImage() {
-        return UserImage;
     }
 }
