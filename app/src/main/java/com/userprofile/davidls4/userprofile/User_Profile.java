@@ -1,13 +1,30 @@
 package com.userprofile.davidls4.userprofile;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+public class User_Profile {
+    private String UserName, UserUsername, Follower, Following,
+            AboutMe, UserImage;
 
-public class User_Profile extends AppCompatActivity {
+    public String getUserName() {
+        return UserName;
+    }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user__profile);
+    public String getUserUsername() {
+        return UserUsername;
+    }
+
+    public String getFollower() {
+        return Follower;
+    }
+
+    public String getFollowingNumber() {
+        return Following;
+    }
+
+    public String getAboutMe() {
+        return AboutMe;
+    }
+
+    public String getUserImage() {
+        return UserImage;
     }
 }
